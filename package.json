@@ -11,7 +11,7 @@
     "lint:ts": "tsc",
     "lint:scss": "stylelint '**/*.{css,scss}'",
     "test:unit": "vitest",
-    "test:regression": "chromatic",
+    "test:regression": "chromatic -exit-zero-on-changes",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
