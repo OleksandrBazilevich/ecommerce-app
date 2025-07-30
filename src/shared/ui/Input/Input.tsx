@@ -1,9 +1,11 @@
 import { useState, type InputHTMLAttributes, type ReactNode } from "react";
-import ShowIcon from "@/shared/assets/icons/Show.svg?react";
-import HideIcon from "@/shared/assets/icons/Hide.svg?react";
-import styles from "./Input.module.scss";
-import { cn } from "@/shared/lib";
+
+import HideIcon from "../../assets/icons/Hide.svg?react";
+import ShowIcon from "../../assets/icons/Show.svg?react";
+import { cn } from "../../lib";
 import { Button } from "../Button/Button";
+
+import styles from "./Input.module.scss";
 
 type HTMLInputProps = Omit<
   InputHTMLAttributes<HTMLInputElement>,

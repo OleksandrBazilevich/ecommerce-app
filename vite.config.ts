@@ -1,13 +1,16 @@
 /// <reference types="vitest/config" />
 
-import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react";
-import svgr from "vite-plugin-svgr";
+import { fileURLToPath } from "node:url";
 import path from "path";
 
-// https://vite.dev/config/
-import { fileURLToPath } from "node:url";
 import { storybookTest } from "@storybook/addon-vitest/vitest-plugin";
+import react from "@vitejs/plugin-react";
+import { defineConfig } from "vite";
+import svgr from "vite-plugin-svgr";
+
+
+// https://vite.dev/config/
+
 const dirname =
   typeof __dirname !== "undefined"
     ? __dirname

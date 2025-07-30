@@ -1,6 +1,8 @@
 import type { Meta, StoryObj } from "@storybook/react-vite";
+
+import SearchIcon from "../../assets/icons/Search.svg?react";
+
 import { AppIcon } from "./AppIcon";
-import SearchIcon from "@/shared/assets/icons/Search.svg?react";
 
 const meta: Meta<typeof AppIcon> = {
   title: "shared/AppIcon",

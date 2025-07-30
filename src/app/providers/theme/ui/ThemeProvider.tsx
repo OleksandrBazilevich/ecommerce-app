@@ -1,5 +1,6 @@
-import { Theme, ThemeContext, type ThemeType } from "@/shared/config";
 import { useEffect, useState } from "react";
+
+import { Theme, ThemeContext, type ThemeType } from "@/shared/config";
 
 const defaultTheme =
   (localStorage.getItem("theme") as ThemeType) || Theme.VIOLET;

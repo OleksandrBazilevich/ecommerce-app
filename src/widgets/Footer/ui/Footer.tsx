@@ -1,8 +1,12 @@
-import LogoIcon from "@/shared/assets/icons/Logo.svg?react";
-import styles from "./Footer.module.scss";
-import { Link } from "react-router";
-import { routePaths } from "@/shared/config";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router";
+
+
+import LogoIcon from "@/shared/assets/icons/Logo.svg?react";
+import { routePaths } from "@/shared/config";
+
+import styles from "./Footer.module.scss";
+
 
 export const Footer = () => {
   const { t } = useTranslation();

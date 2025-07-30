@@ -1,5 +1,6 @@
 {
   "extends": ["stylelint-config-standard-scss"],
+  "ignoreFiles": ["storybook-static/**"],
   "rules": {
     "custom-property-empty-line-before": null,
     "comment-empty-line-before": "always",
