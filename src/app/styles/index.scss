@@ -1,0 +1,11 @@
+@use "themes/violet";
+@use "themes/blue";
+@use "variables/global";
+@use "reset";
+
+body {
+  font: var(--font-m);
+  background-color: var(--bg-color);
+  color: var(--text-primary-color);
+  min-height: 100vh;
+}
