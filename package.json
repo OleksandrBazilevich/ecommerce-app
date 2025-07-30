@@ -10,7 +10,7 @@
     "lint:fix": "eslint . --fix",
     "lint:ts": "tsc",
     "lint:scss": "stylelint '**/*.{css,scss}'",
-    "test:unit": "vitest",
+    "test:unit": "vitest  --project unit",
     "test:regression": "chromatic -exit-zero-on-changes",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"

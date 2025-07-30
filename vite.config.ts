@@ -8,7 +8,6 @@ import react from "@vitejs/plugin-react";
 import { defineConfig } from "vite";
 import svgr from "vite-plugin-svgr";
 
-
 // https://vite.dev/config/
 
 const dirname =
@@ -39,7 +38,7 @@ export default defineConfig({
           }),
         ],
         test: {
-          name: "regression",
+          name: "storybook",
           browser: {
             enabled: true,
             headless: true,
